@@ -1,6 +1,3 @@
-import bootstrap from 'bootstrap'
-import Swiper from 'swiper/bundle';
-
 const burgerContainer=document.querySelector(".header__burger-container");
 const burger=document.querySelector(".header__burger");
 const body=document.querySelector("body");

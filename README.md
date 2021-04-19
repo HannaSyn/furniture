@@ -1,16 +1,6 @@
 # Furniture page
+Version for demo
 
-## Setup
-```
-npm install
-```
+[Demo]()
 
-### Start for development
-```
-parcel serve index.html
-```
-
-### Build for production
-```
-parcel build index.html
-```
+Version for dev on branch npm_version
