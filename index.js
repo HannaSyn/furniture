@@ -11,20 +11,18 @@ burger.addEventListener("click", () => {
 
 var swiper = new Swiper('.swiper-container', {
   slidesPerView: 1,
-  spaceBetween: 10,
-  slidesPerGroup: 4,
+  spaceBetween: 0,
+  slidesPerGroup: 1,
   breakpoints: {
-    576: {
-      slidesPerView: 1,
-      spaceBetween: 15,
-    },
     768: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 20,
+      slidesPerGroup: 3,
     },
-    1440: {
-      slidesPerView: 4,
+    1200: {
+      slidesPerView: 6,
       spaceBetween: 25,
+      slidesPerGroup: 4,
     },
   },
   loop: true,
