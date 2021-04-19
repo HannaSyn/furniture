@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.scss">
+  <title>Furniture</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="row">
+        <div class="header__burger-container col">
+          <div class="header__burger col-1">
+            <span></span>
+          </div>
+        </div>
+        <a href="#" class="header__items col">
+          <img class="logo" src="assets/logo.svg" alt="logo">
+          <img src="assets/logotext.svg" alt="logotext">
+        </a>
+        <nav class="menu col-auto col-lg-9">
+          <ul class="menu__list">
+            <li class="menu__item">
+                <button href="#" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false" class="menu__dropdown">All furniture <img src="assets/icon-arrow.svg" alt=""></button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Item 1</a></li>
+                  <li><a class="dropdown-item" href="#">Item 2</a></li>
+                  <li><a class="dropdown-item" href="#">Item 3</a></li>
+                </ul>
+            </li>
+            <li class="menu__item"><a href="#" class="menu__link">About us</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">News</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__items col">
+          <a href="#"><img class="search" src="assets/icon-search.svg" alt="search"></a>
+          <a href="#"><img src="assets/icon-like.svg" alt="like"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <article class="mainscreen">
+      <div class="mainscreen__container container">
+        <div class="mainscreen__row row">
+          <div class="mainscreen__column col-lg-6">
+            <div class="mainscreen__content">
+              <h2 class="title title-white mainscreen__title">
+                Since 1982
+              </h2>
+              <p class="mainscreen__subtitle">
+                Specialist custom designers and manufacturers
+              </p>
+              <a href="#" class="mainscreen__button button-white"><span>Shop online</span></a>
+            </div>
+            <div class="mainscreen__icon">
+              <a class="mainscreen__arrow" href="#cards">
+                <img src="assets/arrow-down.svg" alt="arrow">
+              </a>
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="mainscreen__column mainscreen__column-right col-lg-5">
+            <div class="mainscreen__icons">
+              <a href="#"><img src="assets/icon_twitter.svg" alt="twitter"></a>
+              <a href="#"><img src="assets/icon-fb.svg" alt="fb"></a>
+            </div>
+            <div class="mainscreen__content content-right">
+              <h2 class="title title-white mainscreen__title">
+                About us
+              </h2>
+              <p class="mainscreen__text">
+                We specialise as custom designers and makers of free standing timber furniture. Trading since 1982, we have built an excellent reputation for quality custom made furniture.
+              </p>
+              <a href="#" class="mainscreen__button"><span>Read more</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section id="cards" class="cards">
+      <div class="container">
+        <div class="cards__row row">
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/01.jpg" alt="Lounge">
+              <p class="cards__title title">
+                Lounge
+              </p>
+            </a>
+          </div>
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/02.jpg" alt="Bedroom">
+              <p class="cards__title title">
+                Bedroom
+              </p>
+            </a>
+          </div>
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/03.jpg" alt="Dinning">
+              <p class="cards__title title">
+                Dinning
+              </p>
+            </a>
+          </div>
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/04.jpg" alt="Office">
+              <p class="cards__title title">
+                Office
+              </p>
+            </a>
+          </div>
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/05.jpg" alt="Acsessories">
+              <p class="cards__title title">
+                Acsessories
+              </p>
+            </a>
+          </div>
+          <div class="cards__item col-3">
+            <a class="cards__link" href="#">
+              <img class="cards__image" src="assets/06.jpg" alt="Custom furniture">
+              <p class="cards__title title">
+                Custom furniture
+              </p>
+            </a>
+          </div>
+        </div>
+        <section class="plank row">
+          <div class="plank__col col-sm-3">
+            <p class="plank__text">Established</p>
+            <p class="plank__text plank__text-bold">1982</p>
+          </div>
+          <div class="plank__col col-sm-3">
+            <p class="plank__text plank__text-bold">3000</p>
+            <p class="plank__text">Happy customers</p>
+          </div>
+          <div class="plank__col col-sm-3">
+            <p class="plank__text plank__text-bold">3000</p>
+            <p class="plank__text">Happy customers</p>
+          </div>
+          <div class="plank__col col-sm-3">
+            <p class="plank__text">Established</p>
+            <p class="plank__text plank__text-bold">1982</p>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="featured">
+      <h2 class="featured__title title">Featured products</h2>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/4.jpg" class="d-block w-100" alt="Mosse dinning chair">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mosse dinning chair</p>
+                <p class="featured__card-type">Dinning</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/1.jpg" class="d-block w-100" alt="Rotating Blu-ray and DVD Racks">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Rotating Blu-ray and DVD Racks</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/2.jpg" class="d-block w-100" alt="Aspen sofa table">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Aspen sofa table</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/3.jpg" class="d-block w-100" alt="Mondi chair.">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mondi chair</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/4.jpg" class="d-block w-100" alt="Mosse dinning chair">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mosse dinning chair</p>
+                <p class="featured__card-type">Dinning</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/2.jpg" class="d-block w-100" alt="Aspen sofa table">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Aspen sofa table</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div> 
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/1.jpg" class="d-block w-100" alt="Rotating Blu-ray and DVD Racks">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Rotating Blu-ray and DVD Racks</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/3.jpg" class="d-block w-100" alt="Mondi chair.">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mondi chair</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/4.jpg" class="d-block w-100" alt="Mosse dinning chair">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mosse dinning chair</p>
+                <p class="featured__card-type">Dinning</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/1.jpg" class="d-block w-100" alt="Rotating Blu-ray and DVD Racks">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Rotating Blu-ray and DVD Racks</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/2.jpg" class="d-block w-100" alt="Aspen sofa table">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Aspen sofa table</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#" class="featured__card">
+              <div class="featured__card-image">
+                <img src="assets/3.jpg" class="d-block w-100" alt="Mondi chair.">
+              </div>
+              <div class="featured__card-description">
+                <p class="featured__card-name">Mondi chair</p>
+                <p class="featured__card-type">Lounge</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </section>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
